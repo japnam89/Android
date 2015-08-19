@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ <TextView
+android:id="@+id/showmeText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/title_show_me"/>
+<TextView
+   
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/hello_world"/>
+<TextView
+    android:id="@+id/website"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:autoLink="all"
+android:text="@string/mywebsite"/>
+<TextView
+    android:id="@+id/email"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:autoLink="all"
+android:text="@string/myemail"/>
+<TextView
+    android:id="@+id/phone"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:autoLink="all"
+android:text="@string/myphone"/>
+    <Button
+        android:id="@+id/buttonAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Alert Box" />
+ 
+</LinearLayout><!-- From: file:/Users/JAPNAMSINGH/Downloads/AndroidProjectp2/app/src/main/res/layout/help.xml -->

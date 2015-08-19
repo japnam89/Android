@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#34495e">
+
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/contact_title"
+android:gravity="left"
+android:paddingTop="10dip"
+android:paddingBottom="15dip"
+android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textStyle="bold"
+    android:textColor="#0dff76"
+    />
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/contact_college_name"
+android:layout_gravity="left"
+
+    android:textStyle="bold"
+    android:textColor="#fdf7ff" />
+
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/contact_email"
+android:layout_gravity="left"
+android:autoLink="all"
+android:paddingTop="15dip"
+
+
+    android:textColor="#2756ff"
+    />
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/contact_url"
+android:layout_gravity="left"
+android:autoLink="all"
+    android:textColor="#0624ff"
+    />
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/contact_phone"
+android:layout_gravity="left"
+android:autoLink="all"
+    android:textColor="#3032ff"
+    />
+</LinearLayout><!-- From: file:/Users/JAPNAMSINGH/Downloads/AndroidProjectp2/app/src/main/res/layout/contacts.xml -->

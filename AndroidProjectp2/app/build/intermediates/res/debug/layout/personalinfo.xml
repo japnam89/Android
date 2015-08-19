@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:background="#34495e"
+ android:orientation="vertical"
+    >
+
+
+<EditText android:id="@+id/courseName" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+ android:layout_weight="1"
+android:hint="@string/coursename"
+android:imeOptions="actionNext"
+     />
+ 
+
+<EditText android:id="@+id/lecturers" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+ android:layout_weight="1"
+android:hint="@string/Lecturername"
+android:imeOptions="actionNext" />
+
+<EditText android:id="@+id/time" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+ android:layout_weight="1"
+android:hint="@string/time"
+android:imeOptions="actionNext" /> 
+
+
+ <Spinner android:id="@+id/Date"
+ android:layout_width="wrap_content"
+ android:background="#336699"
+ android:layout_height="wrap_content"
+ android:entries="@array/dates" />
+
+<EditText android:id="@+id/venue" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+ android:layout_weight="1"
+android:hint="@string/venue"
+android:imeOptions="actionNext" />
+
+
+
+<Button android:id="@+id/todo_edit_button"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:text="@string/todo_edit_confirm"
+    />
+</LinearLayout> 
+<!-- From: file:/Users/JAPNAMSINGH/Downloads/AndroidProjectp2/app/src/main/res/layout/personalinfo.xml -->
